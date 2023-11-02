@@ -52,7 +52,11 @@ python annotate.py input.png output.png "Linus Torvalds created Linux."
 
 ## api_tmdb_get_movie_print_info.py
 
-This script prints the homepage and description for movie - here, Star Wars.
+This script prints the homepage and description for a movie - here, Star Wars.
+
+To get this information, it uses the API for TMDB (The Movie Database), a free resource with no cost for personal usage API requests.
+
+Note: you'll have to get your own API key from TMDB and add it as an env var under the name MOVIEDB_API_KEY in order to successfully run this script.
 
 Run it like this:
 
