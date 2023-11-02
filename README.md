@@ -36,7 +36,7 @@ This script annotates an image with text at the bottom.
 
 If you have a screenshot for example, you can use it to add a quick annotation at the bottom.
 
-As written, the script will append a small caption at the bottom of the image, using the text you enter, against a white background with black text.
+As written, the script will append a small caption at the bottom of the image, using the text you enter, in black text centered on a white background.
 
 Run it like this, for an example input image of input.png and output image of output.png:
 
