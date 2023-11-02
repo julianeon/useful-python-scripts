@@ -2,6 +2,8 @@
 
 ![example gif](output.gif)
 
+Example gif created by make_gif.py.
+
 ## make_gif_images.py
 
 This script generates the images for a gif using imagemagick (must be installed).
