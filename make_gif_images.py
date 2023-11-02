@@ -26,18 +26,16 @@ def make_image(text, output_filename, cbackground, cforeground):
     print(f"Image created successfully as {output_filename}.")
 
 tarr = (
-    ("https://ronaldsvilcins.com/2020/12/10/programming-quotes/", "white", "blue"),
-    ("There are only two kinds of programming languages: \nthose people always complain about \nand those nobody uses.\n- Bjarne Stroustrup", "black", "white"),
-    ("If you optimize everything, you will always be unhappy.\n- Donald Knuth", "black", "white"),
-    ("Measuring programming progress by lines of code \nis like measuring aircraft building progress by weight.\n-Bill Gates", "black", "white"),
-    ("If you've chosen the right data structures \nand organized things well, \nthe algorithms will almost always be self-evident.\n- Rob Pike", "black", "orange"),
-    ("Talk is cheap. Show me the code.\n- Linus Torvalds", "black", "yellow"),
+    ("Rob Pike's 5 Rules of Programming", "white", "blue"),
+    ("You can't tell \nwhere a program is going to spend its time.", "black", "white"),
+    ("Measure. \nDon't tune for speed until you've measured.", "black", "yellow"),
+    ("Fancy algorithms are slow \nwhen n is small - and n is usually small.", "black", "white"),
+    ("Fancy algorithms are buggier than simple ones.", "black", "white"),
+    ("Data dominates. \nIf you've chosen the right data structures, \nand organized things well, \nthe algorithms will almost always be self-evident.", "black", "orange"),
 )
 
 for i, (string, color_b, color_t) in enumerate(tarr):
     fname = f"poly_{i}.png"
     make_image(string, fname, color_b, color_t)
 
-subprocess.run(["convert", "-delay", "300", "poly_*", "output.gif"])
 
-print("GIF created successfully as output.gif.")
