@@ -1,5 +1,7 @@
 # Useful Python Scripts
 
+[example gif](./output.gif)
+
 ## make_gif_images.py
 
 This script generates the images for a gif using imagemagick (must be installed).
