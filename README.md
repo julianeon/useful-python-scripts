@@ -1,6 +1,6 @@
 # Useful Python Scripts
 
-[example gif](./output.gif)
+![example gif](output.gif)
 
 ## make_gif_images.py
 
