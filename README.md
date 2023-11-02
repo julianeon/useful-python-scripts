@@ -27,3 +27,15 @@ The text to be used, and the filenames used for output, are coded into the scrip
 Run it like this:
 
 python make_gif.py
+
+## annotate_image.py
+
+This script annotates an image with text at the bottom.
+
+If you have a screenshot for example, you can use it to add a quick annotation at the bottom.
+
+As written, the script will append a small caption at the bottom of the image, using the text you enter, against a white background with black text.
+
+Run it like this, for an example input image of input.png and output image of output.png:
+
+python annotate.py input.png output.png "Linus Torvalds created Linux."
