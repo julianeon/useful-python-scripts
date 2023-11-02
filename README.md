@@ -18,7 +18,9 @@ python make_gif_images.py
 
 ## make_gif.py
 
-This script generates a complete gif. It is very similar to make_gif_images.py, with an extra line at the end to create a gif from those images.
+This script generates a complete gif using imagemagick (must be intalled). 
+
+It is very similar to make_gif_images.py, with an extra line at the end to create a gif from those images.
 
 The text to be used, and the filenames used for output, are coded into the script.
 
