@@ -27,13 +27,10 @@ def make_image(text, output_filename, cbackground, cforeground):
 
 tarr = (
     ("Rob Pike's 5 Rules of Programming", "white", "blue"),
-    ("Rob Pike's 5 Rules of Programming", "white", "blue"),
     ("You can't tell \nwhere a program is going to spend its time.", "black", "white"),
     ("Measure. \nDon't tune for speed until you've measured.", "black", "yellow"),
     ("Fancy algorithms are slow \nwhen n is small - and n is usually small.", "black", "white"),
     ("Fancy algorithms are buggier than simple ones.", "black", "white"),
-    ("Data dominates. \n\n\n", "black", "orange"),
-    ("Data dominates. \nIf you've chosen the right data structures, \nand organized things well, \nthe algorithms will almost always be self-evident.", "black", "orange"),
     ("Data dominates. \nIf you've chosen the right data structures, \nand organized things well, \nthe algorithms will almost always be self-evident.", "black", "orange"),
 )
 
