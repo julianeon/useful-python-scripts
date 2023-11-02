@@ -4,9 +4,11 @@
 
 Example gif created by make_gif.py.
 
+To use these scripts, imagemagick must be installed.
+
 ## make_gif_images.py
 
-This script generates the images for a gif using imagemagick (must be installed).
+This script generates the images for a gif using imagemagick.
 
 The text to be used, and the filenames used for output, are coded into the script.
 
@@ -18,7 +20,7 @@ python make_gif_images.py
 
 ## make_gif.py
 
-This script generates a complete gif using imagemagick (must be installed). 
+This script generates a complete gif using imagemagick. 
 
 It is very similar to make_gif_images.py, with an extra line at the end to create a gif from those images.
 
@@ -32,7 +34,7 @@ python make_gif.py
 
 ![annotated image](linux.png)
 
-This script annotates an image with text at the bottom.
+This script annotates an image with text at the bottom using imagemagick.
 
 If you have a screenshot for example, you can use it to add a quick annotation at the bottom.
 
