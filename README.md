@@ -30,6 +30,8 @@ python make_gif.py
 
 ## annotate_image.py
 
+![annotated image](linux.png)
+
 This script annotates an image with text at the bottom.
 
 If you have a screenshot for example, you can use it to add a quick annotation at the bottom.
