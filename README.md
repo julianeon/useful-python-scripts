@@ -68,6 +68,8 @@ This script sets up a NumberGuessingGame class which allows you to create and pl
 
 The game generates a random number within a specified range and challenges the user to guess it within a limited number of attempts.
 
+You can run it by running guess_the_number.py.
+
 ## guess_the_number.py
 
 This script utilizes the NumberGuessingGame class to create and play a number guessing game. 
@@ -77,6 +79,10 @@ By default, the game's parameters are set to guess a random number between 1 and
 The target number is set to 42 but you can customize the target number or comment out those lines to guess a computer generated number. 
 
 When executed, the script guides the user through the game, providing feedback and ultimately revealing the answer.
+
+Run it like this:
+
+python guess_the_number.py
 
 ## test_number_guessing_game.py
 
@@ -89,3 +95,9 @@ test_check_the_guess_too_low: Tests whether the check_the_guess method correctly
 test_check_the_guess_too_high: Tests whether the check_the_guess method correctly identifies a guess as "Too high" when the user's guess is greater than the target number.
 
 test_check_the_guess_correct: Tests whether the check_the_guess method correctly identifies a guess as "You guessed it!" when the user's guess matches the target number.
+
+Run it like this:
+
+python test_number_guessing_game.py
+
+The 3 tests should then pass.
