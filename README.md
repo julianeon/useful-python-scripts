@@ -46,7 +46,7 @@ As written, the script will append a small caption at the bottom of the image, u
 
 Run it like this, for an example input of input.png and output of output.png:
 
-`python annotate.py input.png output.png "Linus Torvalds created Linux."`
+`python annotate_image.py input.png output.png "Linus Torvalds created Linux."`
 
 ## api_tmdb_get_movie_print_info.py
 
