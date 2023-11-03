@@ -59,3 +59,31 @@ Note: you'll have to get your own API key from TMDB and add it as an env var und
 Run it like this:
 
 python api_tmdb_get_movie_print_info.py
+
+## number_guessing_game.py
+
+This script sets up a NumberGuessingGame class which allows you to create and play a number guessing game.
+
+The game generates a random number within a specified range and challenges the user to guess it within a limited number of attempts.
+
+## guess_the_number.py
+
+This script utilizes the NumberGuessingGame class to create and play a number guessing game. 
+
+By default, the game's parameters are set to guess a random number between 1 and 100 within a maximum of 10 attempts. 
+
+The target number is 42 but you can customize the target number by setting custom_target to a specific value or comment out the relevant lines to continue guessing a random number. 
+
+When executed, the script guides the user through the game, providing feedback and ultimately revealing the outcome of their guesses.
+
+## test_number_guessing_game.py
+
+This script contains a unit test for the NumberGuessingGame class. 
+
+Test Cases:
+
+test_check_the_guess_too_low: Tests whether the check_the_guess method correctly identifies a guess as "Too low" when the user's guess is less than the target number.
+
+test_check_the_guess_too_high: Tests whether the check_the_guess method correctly identifies a guess as "Too high" when the user's guess is greater than the target number.
+
+test_check_the_guess_correct: Tests whether the check_the_guess method correctly identifies a guess as "You guessed it!" when the user's guess matches the target number.
