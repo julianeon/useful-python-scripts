@@ -98,6 +98,6 @@ test_check_the_guess_correct: Tests whether the check_the_guess method correctly
 
 Run it like this:
 
-python test_number_guessing_game.py
+`python test_number_guessing_game.py`
 
 The 3 tests should then pass.
