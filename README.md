@@ -16,7 +16,7 @@ It doesn't create a gif in case you want to add a custom image or change the ord
 
 Run it like this:
 
-python make_gif_images.py
+`python make_gif_images.py`
 
 ## make_gif.py
 
@@ -30,7 +30,7 @@ The text, colors, and filenames for the output images are coded into the script.
 
 Run it like this:
 
-python make_gif.py
+`python make_gif.py`
 
 ## annotate_image.py
 
@@ -46,7 +46,7 @@ As written, the script will append a small caption at the bottom of the image, u
 
 Run it like this, for an example input of input.png and output of output.png:
 
-python annotate.py input.png output.png "Linus Torvalds created Linux."
+`python annotate.py input.png output.png "Linus Torvalds created Linux."`
 
 ## api_tmdb_get_movie_print_info.py
 
@@ -58,7 +58,7 @@ Note: you'll have to get your own API key from TMDB and add it as an env var und
 
 Run it like this:
 
-python api_tmdb_get_movie_print_info.py
+`python api_tmdb_get_movie_print_info.py`
 
 ## number_guessing_game.py
 
@@ -82,7 +82,7 @@ When executed, the script guides the user through the game, providing feedback a
 
 Run it like this:
 
-python guess_the_number.py
+`python guess_the_number.py`
 
 ## test_number_guessing_game.py
 
@@ -100,4 +100,4 @@ Run it like this:
 
 `python test_number_guessing_game.py`
 
-The 3 tests should then pass.
+The 3 test cases should pass.
