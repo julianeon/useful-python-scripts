@@ -74,9 +74,9 @@ This script utilizes the NumberGuessingGame class to create and play a number gu
 
 By default, the game's parameters are set to guess a random number between 1 and 100 within a maximum of 10 attempts. 
 
-The target number is 42 but you can customize the target number by setting custom_target to a specific value or comment out the relevant lines to continue guessing a random number. 
+The target number is set to 42 but you can customize the target number by setting custom_target to a specific value or comment out the relevant lines to continue guessing a random number. 
 
-When executed, the script guides the user through the game, providing feedback and ultimately revealing the outcome of their guesses.
+When executed, the script guides the user through the game, providing feedback and ultimately revealing the answer.
 
 ## test_number_guessing_game.py
 
