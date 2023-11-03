@@ -68,7 +68,7 @@ This script sets up a NumberGuessingGame class which allows you to create and pl
 
 The game generates a random number within a specified range and challenges the user to guess it within a limited number of attempts.
 
-You can run it by running guess_the_number.py.
+You can see it in action by running guess_the_number.py.
 
 ## guess_the_number.py
 
