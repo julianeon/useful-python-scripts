@@ -90,11 +90,11 @@ This script contains a unit test for the NumberGuessingGame class.
 
 Test Cases:
 
-test_check_the_guess_too_low: Tests whether the check_the_guess method correctly identifies a guess as "Too low" when the user's guess is less than the target number.
+**test_check_the_guess_too_low**: Tests whether the check_the_guess method correctly identifies a guess as "Too low" when the user's guess is less than the target number.
 
-test_check_the_guess_too_high: Tests whether the check_the_guess method correctly identifies a guess as "Too high" when the user's guess is greater than the target number.
+**test_check_the_guess_too_high**: Tests whether the check_the_guess method correctly identifies a guess as "Too high" when the user's guess is greater than the target number.
 
-test_check_the_guess_correct: Tests whether the check_the_guess method correctly identifies a guess as "You guessed it!" when the user's guess matches the target number.
+**test_check_the_guess_correct**: Tests whether the check_the_guess method correctly identifies a guess as "You guessed it!" when the user's guess matches the target number.
 
 Run it like this:
 
