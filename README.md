@@ -62,6 +62,8 @@ python api_tmdb_get_movie_print_info.py
 
 ## number_guessing_game.py
 
+![number guessing game](number_guessing.png)
+
 This script sets up a NumberGuessingGame class which allows you to create and play a number guessing game.
 
 The game generates a random number within a specified range and challenges the user to guess it within a limited number of attempts.
