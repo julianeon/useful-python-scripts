@@ -4,8 +4,6 @@
 
 Example gif created by make_gif.py.
 
-To use these scripts, imagemagick must be installed.
-
 ## make_gif_images.py
 
 This script generates the images for a gif.
