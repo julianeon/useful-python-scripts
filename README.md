@@ -102,14 +102,26 @@ Run it like this:
 
 The 3 test cases should pass.
 
-## draw_text_graphic
+## draw_text_graphic.py
 
 ![text rectangle](text_rectangle.png)
 
 This script can be used to draw a text graphic: a centered rectangle with text across it, across a monocolor background.
 
-You can see the text, text color, foreground color, and background color.
+You can set the text, text color, foreground color, and background color.
 
 Run it like this:
 
 `python draw_text_graphic.py`
+
+## draw_text_graphic_gradient.py
+
+![text gradient](text_gradient.png)
+
+This script can be used to draw a text graphic: a centered rectangle with text across it, across a gradient color background.
+
+You can set the text, text color, foreground color, and background color gradient (start color to end color).
+
+Run it like this:
+
+`python draw_text_graphic_gradient.py`
