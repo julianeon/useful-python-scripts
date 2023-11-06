@@ -106,7 +106,7 @@ The 3 test cases should pass.
 
 ![text rectangle](text_rectangle.png)
 
-This script can be used to draw a text graphic: a centered rectangle with text across it, across a monocolor background.
+This script can be used to draw a text graphic: a centered rectangle with text across it, across a solid color background.
 
 You can set the text, text color, foreground color, and background color.
 
