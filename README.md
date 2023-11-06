@@ -101,3 +101,15 @@ Run it like this:
 `python test_number_guessing_game.py`
 
 The 3 test cases should pass.
+
+## draw_text_graphic
+
+![text rectangle](text_rectangle.png)
+
+This script can be used to draw a text graphic: a centered rectangle with text across it, across a monocolor background.
+
+You can see the text, text color, foreground color, and background color.
+
+Run it like this:
+
+`python draw_text_graphic.py`
