@@ -10,5 +10,9 @@ def get_random_name(filename):
 first_name = get_random_name('firstnames.csv')
 last_name = get_random_name('lastnames.csv')
 
-print(f"{first_name} {last_name}")
+# Format the full name as a string
+full_name = f"{first_name} {last_name}"
+
+# Print the formatted string
+print(full_name)
 
