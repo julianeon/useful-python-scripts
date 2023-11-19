@@ -94,6 +94,9 @@ Run it like this:
 
 `python name_generator.py`
 
+It will print out a name like this:
+
+`Felicita Muhlhauser`
 
 ## test_number_guessing_game.py
 
