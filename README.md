@@ -84,6 +84,17 @@ Run it like this:
 
 `python guess_the_number.py`
 
+## name_generator.py
+
+A script that takes a first name from firstnames.csv and a last name from lastnames.csv and combines them to print out a random name.
+
+Inspired by [this script](https://github.com/hastagAB/Awesome-Python-Scripts/tree/master/Random_Names_Generator).
+
+Run it like this:
+
+`python name_generator.py`
+
+
 ## test_number_guessing_game.py
 
 This script contains a unit test for the NumberGuessingGame class. 
