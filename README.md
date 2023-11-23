@@ -56,20 +56,6 @@ Run it like this:
 
 `python draw_text_graphic_gradient.py`
 
-## guess_the_number.py
-
-This script utilizes the NumberGuessingGame class to create and play a number guessing game. 
-
-By default, the game's parameters are set to guess a random number between 1 and 100 within a maximum of 10 attempts. 
-
-The target number is set to 42 but you can customize the target number or comment out those lines to guess a computer generated number. 
-
-When executed, the script guides the user through the game, providing feedback and ultimately revealing the answer.
-
-Run it like this:
-
-`python guess_the_number.py`
-
 ## make_gif.py
 
 This script generates a complete gif from the text and colors you specify. 
@@ -113,15 +99,29 @@ It will print out a name like this:
 
 `Felicita Muhlhauser`
 
-## number_guessing_game.py
+## number_guesser.py
 
 ![number guessing game](number_guessing.png)
+
+This script utilizes the NumberGuessingGame class to create and play a number guessing game. 
+
+By default, the game's parameters are set to guess a random number between 1 and 100 within a maximum of 10 attempts. 
+The target number is set to 42 but you can customize the target number or comment out those lines to guess a computer generated number. 
+
+When executed, the script guides the user through the game, providing feedback and ultimately revealing the answer.
+
+Run it like this:
+
+`python number_guesser.py`
+
+## number_guessing_game.py
 
 This script sets up a NumberGuessingGame class which allows you to create and play a number guessing game.
 
 The game generates a random number within a specified range and challenges the user to guess it within a limited number of attempts.
 
 You can see it in action by running guess_the_number.py.
+
 
 ## number_guessing_game_test.py
 
