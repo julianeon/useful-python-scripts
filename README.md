@@ -141,7 +141,7 @@ The 3 test cases should pass.
 
 ## parsing_html_beautiful_soup.py
 
-This script uses the HTML parsing library Beautiful Soup to parse a page of HTML on a website at example.com (a real website).
+This script uses the HTML parsing library Beautiful Soup to parse a page of HTML at example.com (a real website).
 
 Run it like this:
 
