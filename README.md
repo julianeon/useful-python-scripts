@@ -123,7 +123,7 @@ The game generates a random number within a specified range and challenges the u
 
 You can see it in action by running guess_the_number.py.
 
-## test_number_guessing_game.py
+## number_guessing_game_test.py
 
 This script contains a unit test for the NumberGuessingGame class. 
 
@@ -137,7 +137,7 @@ Test Cases:
 
 Run it like this:
 
-`python test_number_guessing_game.py`
+`python number_guessing_game_test.py`
 
 The 3 test cases should pass.
 
