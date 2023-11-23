@@ -22,7 +22,7 @@ Run it like this, for an example input of input.png and output of output.png:
 
 ## api_tmdb_get_movie_print_info.py
 
-This script interacts with an API to print the homepage and description for a movie - here, Star Wars.
+This script interacts with an API to print the description for a movie - here, Star Wars.
 
 It uses the API for TMDB (The Movie Database), a free resource with no cost for personal usage API requests.
 
