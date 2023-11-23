@@ -145,5 +145,5 @@ Note: you'll have to get your own API key from TMDB and add it as an env var und
 
 Run it like this:
 
-`python api_tmdb_get_movie_print_info.py`
+`python tmdb_api_get_movie_print_info.py`
 
