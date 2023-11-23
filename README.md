@@ -20,18 +20,6 @@ Run it like this, for an example input of input.png and output of output.png:
 
 `python annotate_image.py input.png output.png "Linus Torvalds created Linux."`
 
-## api_tmdb_get_movie_print_info.py
-
-This script interacts with an API to print the description for a movie - here, Star Wars.
-
-It uses the API for TMDB (The Movie Database), a free resource with no cost for personal usage API requests.
-
-Note: you'll have to get your own API key from TMDB and add it as an env var under the name MOVIEDB_API_KEY in order to successfully run this script.
-
-Run it like this:
-
-`python api_tmdb_get_movie_print_info.py`
-
 ## draw_text_graphic.py
 
 ![text rectangle](text_rectangle.png)
@@ -147,4 +135,15 @@ Run it like this:
 
 `python parsing_html_beautiful_soup.py`
 
+## tmdb_api_get_movie_print_info.py
+
+This script interacts with an API to print the description for a movie - here, Star Wars.
+
+It uses the API for TMDB (The Movie Database), a free resource with no cost for personal usage API requests.
+
+Note: you'll have to get your own API key from TMDB and add it as an env var under the name MOVIEDB_API_KEY in order to successfully run this script.
+
+Run it like this:
+
+`python api_tmdb_get_movie_print_info.py`
 
