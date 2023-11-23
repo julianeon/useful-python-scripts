@@ -84,7 +84,6 @@ Run it like this:
 
 `python make_gif_images.py`
 
-
 ## name_generator.py
 
 A script that takes a first name from firstnames.csv and a last name from lastnames.csv and combines them to print out a random name.
@@ -122,7 +121,6 @@ The game generates a random number within a specified range and challenges the u
 
 You can see it in action by running guess_the_number.py.
 
-
 ## number_guessing_game_test.py
 
 This script contains a unit test for the NumberGuessingGame class. 
@@ -140,4 +138,13 @@ Run it like this:
 `python number_guessing_game_test.py`
 
 The 3 test cases should pass.
+
+## parsing_html_beautiful_soup.py
+
+This script uses the HTML parsing library Beautiful Soup to parse a page of HTML on a website at example.com (a real website).
+
+Run it like this:
+
+`python parsing_html_beautiful_soup.py`
+
 
